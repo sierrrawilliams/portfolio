@@ -79,7 +79,7 @@
     margin-left: 150px;
     margin-top: 0;
 }
-.about-container .info-container .title {
+.title {
     font-size: 25px;
     margin-bottom: 50px;
     font-weight: 600;
@@ -87,4 +87,21 @@
 }
 .about-container .info-container .subtitle {
     line-height: 50px;
+}
+.work-container .card-container {
+    display: flex;
+}
+.work-container .card-container .card img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.work-container .card-container .card .title {
+    font-size: 18px;
+    border-bottom: none;
+    margin: 10px 0;
+}
+.work-container .card-container .card .description {
+    font-size: 13px;
 }
